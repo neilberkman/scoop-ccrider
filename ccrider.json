@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "description": "Search, browse, and resume your Claude Code sessions",
+  "homepage": "https://github.com/neilberkman/ccrider",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/neilberkman/ccrider/releases/download/v0.1.0/ccrider_0.1.0_windows_amd64.zip",
+      "hash": "8e8ae33c9bd7680ba3cbc21a727b65f656eb162ddb21dcb67738fd78a0c53b6d"
+    },
+    "arm64": {
+      "url": "https://github.com/neilberkman/ccrider/releases/download/v0.1.0/ccrider_0.1.0_windows_arm64.zip",
+      "hash": "180b62c90acb0f66b618e1d3bf180758a932716a6077714bb737977f21cfa20f"
+    }
+  },
+  "bin": "ccrider.exe"
+}
