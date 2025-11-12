@@ -1,17 +1,22 @@
 {
-  "version": "0.1.0",
-  "description": "Search, browse, and resume your Claude Code sessions",
-  "homepage": "https://github.com/neilberkman/ccrider",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/neilberkman/ccrider/releases/download/v0.1.0/ccrider_0.1.0_windows_amd64.zip",
-      "hash": "8e8ae33c9bd7680ba3cbc21a727b65f656eb162ddb21dcb67738fd78a0c53b6d"
+    "version": "0.1.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/neilberkman/ccrider/releases/download/v0.1.1/ccrider_0.1.1_windows_amd64.zip",
+            "bin": [
+                "ccrider.exe"
+            ],
+            "hash": "f9321946233bcb4f9f45919b203c2936b0b85f512b697cf560aeb4a74c564312"
+        },
+        "arm64": {
+            "url": "https://github.com/neilberkman/ccrider/releases/download/v0.1.1/ccrider_0.1.1_windows_arm64.zip",
+            "bin": [
+                "ccrider.exe"
+            ],
+            "hash": "ce1064aef18d8594bc4682dd213f2de4f82603b522e05e0179307c85731e938f"
+        }
     },
-    "arm64": {
-      "url": "https://github.com/neilberkman/ccrider/releases/download/v0.1.0/ccrider_0.1.0_windows_arm64.zip",
-      "hash": "180b62c90acb0f66b618e1d3bf180758a932716a6077714bb737977f21cfa20f"
-    }
-  },
-  "bin": "ccrider.exe"
+    "homepage": "https://github.com/neilberkman/ccrider",
+    "license": "MIT",
+    "description": "Search, browse, and resume your Claude Code sessions"
 }
