@@ -1,19 +1,19 @@
 {
-    "version": "1.15.0",
+    "version": "1.15.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/neilberkman/ccrider/releases/download/v1.15.0/ccrider_1.15.0_windows_amd64.zip",
+            "url": "https://github.com/neilberkman/ccrider/releases/download/v1.15.1/ccrider_1.15.1_windows_amd64.zip",
             "bin": [
                 "ccrider.exe"
             ],
-            "hash": "6e9952f5f1134ebf3415c08311232a10f2bc757cd78af806e27ba977d13d5fe5"
+            "hash": "dfb315bd588b5186f59d2fa2576e1eb62131c8816a61444ed809232b4560420c"
         },
         "arm64": {
-            "url": "https://github.com/neilberkman/ccrider/releases/download/v1.15.0/ccrider_1.15.0_windows_arm64.zip",
+            "url": "https://github.com/neilberkman/ccrider/releases/download/v1.15.1/ccrider_1.15.1_windows_arm64.zip",
             "bin": [
                 "ccrider.exe"
             ],
-            "hash": "cba467c918c49e60878395b155a526232ee32b259165b82c7e183bdf88dd5b9b"
+            "hash": "0a95586803106dddd0da3b452eaf12e52c6e421eb1cb3d81f7095dcfcc3ef0bb"
         }
     },
     "homepage": "https://github.com/neilberkman/ccrider",
